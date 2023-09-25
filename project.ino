@@ -57,7 +57,7 @@ struct {
 void setup() 
 {
   RemoteXY_Init (); 
-  
+  pinMode(5, OUTPUT);
   
   // TODO you setup code
   
